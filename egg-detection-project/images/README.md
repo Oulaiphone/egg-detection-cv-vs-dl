@@ -7,9 +7,8 @@ This folder contains sample images, results, and diagrams from the egg detection
 ```
 images/
 ├── README.md           # This file
-├── samples/            # Sample egg images for testing
 ├── results/            # Detection output screenshots
-└── architecture/       # Model architecture diagrams
+
 ```
 
 ## Contents
