@@ -15,24 +15,21 @@ Faster R-CNN is a two-stage object detector consisting of:
 
 ```
 faster_rcnn/
-├── README.md               # This file
-├── label_map.pbtxt         # Class label mapping (egg: 1)
+├── README.md                              # This file
+├── label_map.pbtxt                        # Class label mapping (egg: 1)
 │
 ├── config/
-│   └── faster_rcnn.config  # Training configuration
-│
-├── data/
-│   ├── train/              # Training images (1,013 images)
-│   ├── test/               # Test images (53 images)
-│   └── annotations/        # XML annotation files (Pascal VOC format)
-│
-├── models/
-│   └── inference_graph/    # Exported model (.pb files)
+│   └── faster_rcnn_inception_v2_coco.config  # Training configuration
 │
 └── scripts/
-    ├── generate_tfrecord.py    # Convert annotations to TFRecord
-    ├── train.py                # Training script
-    └── detect.py               # Run detection on new images
+    ├── generate_tfrecord.py       # Convert annotations to TFRecords
+    ├── xml_to_csv.py              # Convert XML annotations to CSV
+    ├── model_main.py              # Training script
+    └── detection_inference.py     # Run detection on new images
+
+Note: The trained model file (frozen_inference_graph.pb) is not included 
+due to its large size (57MB). Users can retrain the model using the 
+provided scripts and configuration.
 ```
 
 ## Dataset
