@@ -95,19 +95,16 @@ egg-detection-cv-vs-dl/
 └── egg-detection-project/
     ├── traditional_cv/             # OpenCV-based detection
     │   ├── egg_detection.py
-    │   └── utils/
+   
     │
     ├── faster_rcnn/                # Deep learning detection
     │   ├── config/                 # Training configuration
-    │   ├── data/                   # Train/test datasets
-    │   ├── models/                 # Trained model files
     │   ├── scripts/                # Python scripts
     │   └── label_map.pbtxt
     │
-    └── images/                     # Sample images and results
-        ├── samples/
+    └── images/                     # Results
         ├── results/
-        └── architecture/
+        
 ```
 
 ---
