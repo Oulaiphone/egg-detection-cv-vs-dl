@@ -1,0 +1,34 @@
+# Egg Detection Project - Original Dependencies (2020)
+# =====================================================
+# WARNING: These are archived dependencies from 2020.
+# They may not be compatible with modern systems.
+# This file is preserved for documentation purposes.
+
+# Python version: 3.6.10
+
+# Core Libraries
+numpy>=1.18.0
+pandas>=1.0.0
+Pillow>=7.0.0
+matplotlib>=3.2.0
+
+# Computer Vision
+opencv-python>=4.2.0
+
+# Deep Learning (TensorFlow 1.x)
+tensorflow>=1.15.0,<2.0.0
+
+# TensorFlow Object Detection API dependencies
+lxml
+contextlib2
+pycocotools
+
+# GUI
+PyQt5>=5.14.0
+
+# Jupyter
+jupyter
+notebook
+
+# Utilities
+tqdm
