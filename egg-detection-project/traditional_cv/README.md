@@ -20,7 +20,7 @@ The traditional pipeline uses handcrafted feature extraction techniques:
 ```
 traditional_cv/
 ├── README.md           # This file
-├── egg_detection.py    # Main detection script
+├── egg_detection_main.py    # Main detection script
 
 ```
 
