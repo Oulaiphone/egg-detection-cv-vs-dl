@@ -94,16 +94,22 @@ egg-detection-cv-vs-dl/
 │
 └── egg-detection-project/
     ├── traditional_cv/             # OpenCV-based detection
-    │   ├── egg_detection.py
-   
+    │   ├── README.md
+    │   └── egg_detection_main.py
     │
     ├── faster_rcnn/                # Deep learning detection
-    │   ├── config/                 # Training configuration
-    │   ├── scripts/                # Python scripts
-    │   └── label_map.pbtxt
+    │   ├── README.md
+    │   ├── label_map.pbtxt
+    │   ├── config/
+    │   │   └── faster_rcnn_inception_v2_coco.config
+    │   └── scripts/
+    │       ├── generate_tfrecord.py
+    │       ├── xml_to_csv.py
+    │       ├── model_main.py
+    │       └── detection_inference.py
     │
     └── images/                     # Results
-        ├── results/
+        └── README.md
         
 ```
 
