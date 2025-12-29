@@ -21,9 +21,7 @@ The traditional pipeline uses handcrafted feature extraction techniques:
 traditional_cv/
 ├── README.md           # This file
 ├── egg_detection.py    # Main detection script
-├── gui_app.py          # PyQt5 graphical interface
-└── utils/              # Helper functions
-    └── image_utils.py  # Image processing utilities
+
 ```
 
 ## Usage (Original)
